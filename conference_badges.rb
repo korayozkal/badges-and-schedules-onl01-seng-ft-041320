@@ -15,6 +15,7 @@ def assign_rooms(name)
   name.each.with_index(1) do |name, room_assignment|
     rooms << room_assignments = "Hello, #{name}! You'll be assigned to room #{room_assignment}!"
   end
-  rooms
+  rooms 
+end
 
 
