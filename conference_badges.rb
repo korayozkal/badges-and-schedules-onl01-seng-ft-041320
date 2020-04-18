@@ -15,4 +15,10 @@ def assign_rooms(attendees)
 return Hello, #{attendees} You'll be assigned to room #{rooms}!"
 end
 
-"Hello, _____! You'll be assigned to room _____!"
+
+def printer(attendees)
+  batch_badge_creator(attendees).each {|hello| 
+  puts hello}
+  assign_rooms(attendees).each {|room| 
+  puts room}
+end
